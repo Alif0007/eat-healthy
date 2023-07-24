@@ -76,30 +76,64 @@ body {
     font-weight: 100;
 }
 
-.recipie-section {
+.top-banner {
     display: flex;
+    margin-bottom: 150px;
 }
 
-.steak {
-    width: 50%;
-    font-size: 20px;
-
+.image {
+    margin-left: 25px;
 }
 
-.steak img {
-    width: 70%;
+.card {
+    margin: 2%;
+    box-shadow: 10px 10px 20px 20px #bfbfbf;
+    border-radius: 20px;
 }
 
-.soup {
-    width: 50%;
-
+.card p {
+    margin-right: 10%;
 }
 
-.soup img {
-    width: 70%;
-    margin-left: 50px;
+.card img {
+    margin-top: 30px;
+    width: 90%;
 }
 
 .mar-left {
-    margin-left: 50px;
+    margin-left: 25px;
+}
+
+.followere-item {
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px gray;
+    height: 180px;
+}
+
+.fo-item-1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.followere-item h1 {
+    font-size: 50px;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
+
+}
+
+.footer {
+    text-align: center;
+    color: wheat;
+    background-color: black;
+    height: 200px;
+}
+
+.footer h1 {
+    padding-top: 3%;
 }
